@@ -1,6 +1,9 @@
 # phpweb框架
 phpweb框架基于thinkphp6.0稳定版制作
 
+## 安装
+composer create-project zjlsliupei/phpweb web1
+
 ## 配置
 跟环境有关配置都配置在根目录下，分别是以下3个，最终应用的是.env配置，不同环境采用覆盖方式
 - .dev.env (开发环境配置)
