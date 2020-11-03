@@ -7,10 +7,6 @@ require_once realpath(dirname(__FILE__) . '/Log_Autoload.php');
 
 class AliyunLog implements LogInterface
 {
-    const END_POINT = 'http://cn-hangzhou.log.aliyuncs.com';
-    const END_INTRANET_POINT = 'http://cn-hangzhou-intranet.log.aliyuncs.com';
-    const ACCESS_KEY_ID = 'LTAIr2QMhaK180gf';
-    const ACCESS_KEY = 'BmgfYCpQpMk05M94IdOeq4fbbI2OuI';
     private $project = '';
     private $logStore = 'http-request';
     private $client = null;
